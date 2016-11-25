@@ -1,0 +1,60 @@
+body {
+    background-color: darkslategray
+    
+}
+
+table {
+    width: 25%;
+font-family: "arial";
+    font-size: 10pt;
+    padding-right:10px;
+    padding-left: 10px;
+    margin-left: 5px;
+   
+}
+
+.name {
+    color: white;
+    vertical-align: top;
+    font-style:oblique;
+    margin-right: 30px
+}
+
+.ticket {
+    color:lightgray;
+    font-size:13pt;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align:left;
+    
+    
+}
+.yellow {
+    color:#feef72
+}
+.red {
+    color:red;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom:10px
+}
+.gray {
+    color: gray
+}
+.coated {
+    color:#f05515;
+    font-weight:bold
+}
+.white {
+    color:white;
+    font-style:oblique;
+    margin-right: 30px
+}
+ul {
+    list-style-image: url("green_dot.png");
+    margin:0px;
+    padding-left: 20px;
+    
+}

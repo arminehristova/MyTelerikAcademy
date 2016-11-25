@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LinkedIn</title>
+    <meta charset="utf-8">
+    <style>
+        label {
+            display: block
+        }
+        
+        .search {
+            display: inline-block
+        }
+        
+        .linkd {
+            color: darkmagenta
+        }
+        
+        ul {
+            list-style-type: disc;
+            font-weight: bold;
+            margin: 2px
+        }
+        
+        .nav_ul_2 {
+            list-style-type: circle
+        }
+        
+        hr {
+            color: black;
+            background-size: 2px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3> <a class="linkd" href="www.linkedin.com">LinkedIn</a></h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">What is LinkedIn</a></li>
+            <li><a href="#">Join Today</a></li>
+            <li>
+                <form action="signin.php">
+                    <fieldset>
+                        <legend>Sign In</legend>
+                        <ul class="nav_ul_2">
+                            <li>Email:<input type="email" name="usremail"></li>
+                            <li>Password:<input type="password" name="pwd"></li>
+                            <li><input type="submit" name="SignIn" value="Sign In"></li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </li>
+        </ul>
+        <hr>
+    </nav>
+    <section>
+        <h2>Over 175 million prodessionals Use LinkedIn to exchange information, ideas and opportunities</h2>
+        <ul>
+            <li>Stay informed about your contacts and industry</li>
+            <li>Find the people & knowledge you need to achieve your goals</li>
+            <li>Control your professional identify online</li>
+
+        </ul>
+    </section>
+    <section>
+        <h4>Join LinkedIn Today</h4>
+        <form action="signup.php">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <ul>
+                    <li><label for="fname">First Name:</label><input type="text" name="fname" id="fname"></li>
+                    <li><label for="lname">Last Name:</label><input type="text" name="lname" id="lname"></li>
+                    <li><label for="mail">Email:</label><input type="email" name="usrmail" id="mail"></li>
+                    <li><label for="pass">Password:</label><input type="password" name="pwd" id="pass"></li>
+                </ul>
+                <p> 6 or more characters</p>
+                <input type="submit" name="join" value="Join Now">
+                <p>
+                    Already on LinkedIn? <a href="#">Sign in</a>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+    <section>
+        <h5>Search for someone by name:</h5>
+        <ul>
+            <li><label for="fname" class="search">First Name:</label><input type="text" name="fname" id="sfname" placeholder="First Name"></li>
+            <li><label for="lname" class="search">Last Name:</label><input type="text" name="lname" id="slname" placeholder="Last Name"></li>
+        </ul>
+        <input type="submit" name="Go" value="Go">
+    </section>
+</body>
+
+</html>
