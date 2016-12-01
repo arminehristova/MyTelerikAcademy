@@ -51,6 +51,9 @@ input[type="checkbox"] {
    background-color:lightgray;
    border: 1px solid lightgrey;
    box-shadow: inset;
+   
+
+   
 }
 
 input[type="checkbox"]:checked :after{  

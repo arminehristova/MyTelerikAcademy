@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Windows Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+
+<body>
+    <div id="base">
+
+        <header>
+
+            <img src="calc.png" alt="calc">
+            <span> Calculator </span>
+
+        </header>
+        <div id="win"></div>
+        <div id="main">
+            <div id="nav">
+                <nav>
+                    <p> View</p>
+                    <p>Edit</p>
+                    <p> Help</p>
+                </nav>
+            </div>
+            <div id="div_table">
+                <table id="basis">
+
+                    <tr>
+                        <td colspan="10" id="display">
+                            8854455
+                        </td>
+                    </tr>
+
+
+                    <tr class="prog">
+                        <td colspan="10">
+                            <table id="programm">
+                                <tr>
+                                    <td class="left_zero">0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td class="left_zero">0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td class="right_zero">0000</td>
+                                </tr>
+                                <tr>
+                                    <td class="left" >63</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="left">47</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="right">32</td>
+                                </tr>
+                                <tr>
+                                    <td class="left_zero">0000</td>
+                                    <td>0000</td>
+                                    <td>1000</td>
+                                    <td>0111</td>
+                                    <td class="left_zero">0001</td>
+                                    <td>1011</td>
+                                    <td>1011</td>
+                                    <td class="right_zero">0000</td>
+                                </tr>
+                                <tr>
+                                    <td class="left" >31</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="left">15</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="right">0</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td class="radio_field" rowspan="3" colspan="2">
+                            <form>
+                                
+                                <input type="radio" name="first" value="Hex" id="Hex">
+                                <label for="Hex">Hex</label> <br>
+                                
+                                <input type="radio" name="first" value="Dec" id="Dec" checked="checked">
+                               <label for="Dec">Dec</label> <br>
+                                
+                                <input type="radio" name="first" value="Oct" id="Oct">
+                                <label for="Oct">Oct</label><br>
+                                
+                                <input type="radio" name="first" value="Bin" id="Bin">
+<label for="Bin">Bin</label><br>
+                            </form>
+                        </td>
+                        <td class="clear"><input type="button"></td>
+                        <td class="mod"><input type="button" value="Mod"></td>
+                        <td class="clear"><input class="digit_button" type="button" value="A"></td>
+                        <td class="MC"><input type="button" value="MC"></td>
+                        <td class="MC"><input type="button" value="MR"></td>
+                        <td class="MC"><input type="button" value="MS"></td>
+                        <td class="MC"><input type="button" value="M+"></td>
+                        <td class="MC"><input type="button" value="M-"></td>
+                    </tr>
+                    <tr>
+                        <td class="mod"><input type="button" value="("></td>
+                        <td class="mod"><input type="button" value=")"></td>
+                        <td class="clear"><input class="digit_button" type="button" value="B"></td>
+                        <td class="MC"><input id="arrow" type="button" value="&larr;"></td>
+                        <td class="MC"><input type="button" value="CE"></td>
+                        <td class="mod"><input type="button" value="C"></td>
+                        <td class="mod"><input type="button" value="&plusmn;"></td>
+                        <td class="clear"><input type="button" value="&radic;"></td>
+                    </tr>
+                    <tr>
+                        <td class="mod"><input type="button" value="RoL"></td>
+                        <td class="mod"><input type="button" value="RoR"></td>
+                        <td class="clear"><input class="digit_button" type="button" value="C"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="7"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="8"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="9"></td>
+                        <td class="mod"><input type="button" value="/"></td>
+                        <td class="clear"><input type="button" value="%"></td>
+                    </tr>
+                    <tr>
+                        <td class="radio_field" rowspan="3" colspan="2">
+                            <form>
+                                
+                                <input type="radio" name="second" value="Qword" id="Qword">
+                                <label for="Qword">Qword</label><br/>
+                                
+                                <input type="radio" name="second" value="Dword" id="Dword" checked="checked">
+                                <label for="Dword">Dword</label><br/>
+                                
+                                <input type="radio" name="second" value="Word" id="Word">
+                                <label for="Word">Word</label><br/>
+                               
+                                <input type="radio" name="second" value="Byte" id="Byte">
+ <label for="Byte">Byte</label>
+                            </form>
+                        </td>
+                        <td class="mod"><input type="button" value="Or"></td>
+                        <td class="mod"><input type="button" value="Xor"></td>
+                        <td class="clear"><input class="digit_button" type="button" value="D"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="4"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="5"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="6"></td>
+                        <td class="mod"><input type="button" value="*"></td>
+                        <td class="clear"><input type="button" value="1/x"></td>
+                    </tr>
+                    <tr>
+                        <td class="mod"><input type="button" value="Lsh"></td>
+                        <td class="mod"><input type="button" value="Rsh"></td>
+                        <td class="clear"><input class="digit_button" type="button" value="E"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="1"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="2"></td>
+                        <td class="digit"><input class="digit_button" type="button" value="3"></td>
+                        <td class="mod"><input type="button" value="-"></td>
+                        <td rowspan="2" class="mod"><input class="equal_button" type="button" value="="></td>
+                    </tr>
+                    <tr>
+                        <td class="mod"><input type="button" value="Not"></td>
+                        <td class="mod"><input type="button" value="And"></td>
+                        <td class="clear"><input class="digit_button" type="button" value="F"></td>
+                        <td class="digit" colspan="2"><input class="digit_button" type="button" value="0"></td>
+                        <td class="clear"><input type="button" value="."></td>
+                        <td class="mod"><input type="button" value="+"></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

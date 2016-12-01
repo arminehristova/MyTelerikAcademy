@@ -1,0 +1,17 @@
+p {
+    font-family:Consolas;
+    color: #0094ff;
+    width: 70%;
+    font-size: 13pt;
+    font-style:normal
+}
+
+p::first-letter {
+font-family:Edwardian Script ITC;
+font-size: 30pt
+}
+
+p::first-line {
+    font-weight: bold;
+
+}
